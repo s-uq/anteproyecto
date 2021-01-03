@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Formato recomendado para las tesis de pregrado:
+%  Programa de Ingeniera Electrica
+%  Universidad Tecnologica de Pereira
+%  Margenes usando las Normas NTC1486
+%  Bibliografia usando el formato IEEE
+%  Por:  Alejandro Garces Ruiz.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{pdfpages}
+\usepackage{tikz,pgfplots}
+\usepackage[americanvoltage]{circuitikz}
+\usepackage{pgf}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\usepackage[pdftex,
+              bookmarks,
+              bookmarksnumbered=true,
+              bookmarksopen=false,
+              colorlinks,
+              citecolor=black,
+              filecolor=black,
+              linkcolor=black,
+              urlcolor=black,
+              pdfauthor={Universidad Tecnologica de Pereira},
+              pdftitle={Trabajo de Grado  Ingenieria electrica},
+              pdftoolbar=true,
+              pdfmenubar=true,
+              pdffitwindow = true
+              ]{hyperref}
+
+%----------------------- Margenes (NTC1486)-----------------
+\usepackage[includeheadfoot,dvipdfm]{geometry}
+\geometry{inner={3cm},outer={2cm},top={4cm},
+          bottom={3cm},bindingoffset={1cm}}
+%----------------------- Permitir las tildes ---------------
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}					
+\addto\captionsspanish{%
+  \renewcommand\contentsname{Contenido}
+	\renewcommand\bibname{Bibliograf\'ia}
+	\renewcommand\tablename{Tabla}}
+	
+	
+%-----------------------------------------------------------
+
+\renewcommand{\maketitle}{
+
+%------------- Portada ---------------------------
+
+\begin{titlepage}
+
+\begin{center}
+
+
+\large
+\textbf{\TITULO}
+
+\vfill
+
+\normalsize
+\AUTOR \\
+\vspace{1cm}
+Anteproyecto presentado como requisito \\
+parcial para optar al t\'itulo en  \\
+\textbf{Ingenier\'ia El\'ectrica} \\
+
+\vfill
+
+ 
+\begin{figure}[b]
+\centering
+\definecolor{colora}{rgb}{0.66,0.69,0.2}
+\definecolor{colorb}{RGB}{103,99,74}
+\definecolor{colorc}{RGB}{7,78,64}
+\definecolor{colord}{RGB}{2,151,93}
+\definecolor{colore}{RGB}{0,59,88}
+\definecolor{colorf}{RGB}{0,128,189}
+\definecolor{colorg}{RGB}{212,22,47}
+\definecolor{colorh}{RGB}{226,112,42}
+\definecolor{colori}{RGB}{237,173,24}
+\definecolor{colorj}{RGB}{103,20,46}
+\begin{tikzpicture}[x=0.3mm,y=0.3mm]     
+    \draw[colorc, fill] (30,-30) -- +(0,30) -- +(10,30) -- +(10,0) -- cycle;
+    \draw[colorb, fill] (10,-30) -- +(30,0) -- +(20,-10) -- +(0,-10) -- cycle;    
+    \draw[colora, fill] (0,0) -- +(0,-30) -- +(10,-40) -- +(10,10) -- cycle;        
+    \draw[colord, fill] (30,0) -- +(10,10) -- +(30,10) -- +(20,0) -- cycle;
+    \draw[colorf, fill] (53,0) -- +(0,-40) -- +(10,-30) -- +(10,0) -- cycle;
+    \draw[colore, fill] (53,0) -- +(10,10) -- +(30,10) -- +(20,0) -- cycle;
+    \draw[colori, fill] (107,-12) -- +(-20,0) -- +(-20,-10) -- +(0,-10) -- cycle ;
+    \draw[colorh, fill] (107,0) -- +(10,0) -- +(10,-12) -- +(0,-22) -- cycle;
+    \draw[colorg, fill] (77,0) -- +(10,10) -- +(30,10) -- +(40,0) -- cycle;
+    \draw[colorj, fill] (87,-12) -- +(-10,-10) -- +(-10,-28) -- +(0,-18);        
+\end{tikzpicture}
+\end{figure}
+
+Pereira, \FECHA \\
+UNIVERSIDAD TECNOLÓGICA DE PEREIRA\\
+Programa de Ingenieria El\'ectrica\\
+
+
+\end{center}
+
+\end{titlepage}
+}
+
+\normalsize
+
+\newpage
+
+
+\newcommand{\actividad}[4]{
+  \node at (-5,-15*#1) [text width=80, draw, rounded corners, anchor=east] (N) {#2}; 
+  \draw[gray] (-5,-15*#1) -- +(115,0);
+  \foreach \x in  {1,2, ..., 16} \draw[gray] (7*\x-3,-15*#1) -- +(0,-15);
+  \fill[rounded corners] (3.5*#3-6,-15*#1+1) rectangle +(3.5*#4-3.5*#3+7,-2);
+}
+
+
+
+
+\newenvironment{cronograma}
+{\begin{figure}[h!]\centering\footnotesize\begin{tikzpicture}[x=1mm,y=1mm]
+\node at (0,0) [draw, minimum height=5mm, minimum width=115mm, 
+                anchor=west, fill=gray!10] (B) {Semana} ;
+\foreach \x in  {2,4, ..., 32}
+{
+  \draw[gray] (3.5*\x-3,-8) -- +(0,-7);
+  \node at (3.5*\x-3,-6) [draw, minimum width=6mm, fill=gray!10] {\x} ;      
+};
+
+}
+{\end{tikzpicture}\caption{Cronogram de actividades}\label{fig:cronograma}\end{figure}}
+
+

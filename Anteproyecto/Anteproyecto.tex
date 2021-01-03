@@ -1,0 +1,349 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{draft_thesis} 
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.9}
+\usepackage{lscape}
+
+  \def\AUTOR{Nombres}
+  \def\TITULO{ Diseñar un circuito de conmutación electrónica para el balanceo automático de fases y  un sistema de monitoreo en tiempo real del tablero general de distribución }  
+  \def\FECHA{Fecha}
+  
+% Inicio del documento
+  \usepackage{tabularx}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{PROPONENTE(S), DIRECTOR Y ASESOR(ES)}
+\textbf{PROPONENTE(s)} \\
+
+\begin{table}[htb]		
+	\begin{center}
+		\begin{tabularx}{\textwidth}{|XX|}
+			\hline
+			 & \\
+			\textbf{Código: }[1115193348] & \textbf{Nombre: }[Santiago Mejia Oquendo] \\
+			\textbf{Dirección: }[Armenia] Quindío, [Carrera 19-16N-60 Proviteq] & \textbf{Teléfono: }[3054396914] \\
+			\textbf{E-Mail: }[smejia\_1@uqvirtual.edu.co] & \textbf{Firma: } \rule{50mm}{0.1mm} \\
+			 & \\
+			\hline
+		\end{tabularx}
+	\end{center}
+\end{table}	
+
+\textbf{DIRECTOR}
+\begin{table}[htb]		
+	\begin{center}
+		\begin{tabularx}{\textwidth}{|XX|}
+			\hline
+			 & \\
+			\textbf{DIRECTOR} & \textbf{Nombre: }[Nombres y Apellidos] \\
+			\textbf{Titulos universitarios: }  & [Escriba Aquí] \\
+			\textbf{Tiene vinculación con la Universidad:} & S \underline{x} N \rule{6mm}{0.1mm}\\
+			\textbf{Teléfono: } & [XXXXXXXXXX] \\
+			\textbf{E-Mail: }[Correo electrónico] & \textbf{Firma: } \rule{50mm}{0.1mm} \\
+			 & \\
+			\hline
+		\end{tabularx}
+	\end{center}
+\end{table}	\newline
+
+\textbf{ASESOR(es)}
+\begin{table}[htb]		
+	\begin{center}
+		\begin{tabularx}{\textwidth}{|XX|}
+			\hline
+			& \\
+			\textbf{ASESOR} & \textbf{Nombre: }[Nombres y Apellidos] \\
+			\textbf{Titulos universitarios: }  & [Escriba Aquí] \\
+			\textbf{Tiene vinculación con la Universidad:} & S \underline{x} N \rule{6mm}{0.1mm}\\
+			\textbf{Teléfono: } & [XXXXXXXXXX] \\
+			\textbf{E-Mail: }[Correo electrónico] & \textbf{Firma: } \rule{50mm}{0.1mm} \\
+			& \\
+			\hline
+		\end{tabularx}
+	\end{center}
+\end{table}	
+
+%\newpage
+
+\section{ORGANIZACIÓN USUARIA}
+% La organización usuaria se refiere a la empresa(s) o sector de la industria o la academia que pueda estar directamente interesado en el desarrollo del proyecto...
+\textbf{Razón social:} Escriba aquí \\
+\textbf{Dirección:} Escriba aquí \\
+\textbf{Teléfono:} Escriba aquí \\
+\textbf{Responsable:} Escriba aquí \\	
+\textbf{Teléfono Responsable: }Escriba aquí \\
+\textbf{Cargo: }Escriba aquí \\
+\textbf{Fecha Aceptación: }Escriba aquí \\
+
+\section{GLOSARIO}
+% Aquí deberán colocar una explicación de los términos técnicos no muy conocidos que se incluyan en la propuesta
+\begin{itemize}
+	\item \textbf{Término 1}: Escriba aquí....
+	\item \textbf{Término 2}: Escriba aquí....
+	\item \textbf{Término 3}: Escriba aquí....
+\end{itemize}
+
+\section{ÁREA}
+% Escriba aquí el área del programa académico, afín al proyecto
+
+\section{MODALIDAD}
+% Clasificar el proyecto según las modalidades descritas en la sección “Modalidades de trabajos de grado ”. del Reglamento de trabajo de grado
+
+\section{TITULO}
+Diseñar un circuito de conmutación electrónica para el balanceo automático de fases y  un sistema monitoreo en tiempo real del tablero general de distribución
+
+\section{TEMA}
+% Describir el tema del proyecto en un párrafo y especificar claramente en que porcentajes será de búsqueda bibliográfica y estudio teórico, de avance filosófico ó Desarrollo Teórico, de tipo experimental en laboratorio, de desarrollo aplicado o práctica de campo, de Gestión/Administración, y también clasificar las áreas a las que pertenece el tema, usando la tabla presentada
+El proyecto esta enfocado al desarrollo de un prototipo de  circuito de conmutación de fases para el balance de cargas, el cual tiene como principio conmutar  las lineas que se encuentran en un tablero eléctrico que maneja el suministro de energía,el proceso para establecer la fase que soportara la carga o cargas sera en base a decisiones establecidas por parámetros de medición de voltaje, corrientes y frecuencias del sistema que ocupa el tablero eléctrico.
+El circuito prototipo podrá ser empleado en sitios como pequeñas y grandes  industrias, establecimientos comerciales que tengan como objetivo mejorar la eficiencia de potencia del consumo.
+En la tabla 1 se especifican los porcentajes para el desarrollo del prototipo de un circuito de conmutación de fases           
+	\begin{table}[htb]
+	\caption{Escríba descripción.} % Debe escribir un caption apropiado al proyecto a realizar
+	\label{tab:desarrollo}	
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline
+			Actividad & Porcentaje \\\hline \hline
+			Documentación y búsqueda bibliográfica & 25\% \\
+			Desarrollo del prototipo  & 50\% \\
+			Escritura del informe final  & 25\% \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table} 
+
+\section{ANTECEDENTES}
+
+\subsection{Palabras Claves}
+% Listar las palabras claves con las que se hicieron las búsquedas
+\begin{itemize}
+	\item \textbf{Palabra clave 1}: Escriba aquí....
+	\item \textbf{Palabra clave 2}: Escriba aquí....
+	\item \textbf{Palabra clave 3}: Escriba aquí....
+\end{itemize}
+
+
+\subsection{Herramientas de Búsqueda}
+%Listar las herramientas con las cuales se realizaron las búsquedas: Ej. Motores de búsqueda: Google, Google Academico (scholar.google.com), Yahoo…etc, Base de Datos (www.uniquindio.edu.co/biblioteca): ProQuest, Portal ACM, IEEE, bibliotecas virtuales 
+Google Scholar, IEEE explorer,EBSCOhost,Dialnet
+
+\subsection{Estado del Arte}
+% Hacer un recuento del origen de la idea y del estado del arte, así como un inventario de proyectos similares en esta y otras universidades, grupos  y/o empresas, garantizando así que ya se conocen los avances en esta área, para no reinventar.
+
+El termino de redes inteligentes o Smart grid nace  aproximadamente en el año 2007, auspiciado por Andrés E. Carvallo, el 24 de abril en una conferencia sobre energía en Chicago para el IDC (internacional data corporation), donde menciona Smart Grid como una combinación de energía, mecanismos de comunicación, software y hadware. Menciona como esta estructura de elementos podría existir solo con la formación de una nueva arquitectura de sistemas que faciliten la integración y modelado del framework.\cite{Quintana2012}\cite{PeraltaSevilla2013}
+\\
+\\
+ En todo el mundo se han realizado proyectos piloto y argumentativos de redes inteligentes donde se incluyen aplicaciones como la generación distribuida, tecnologías de control y la gestión de la demanda a través de medidores inteligentes.En general la mayoría de estas iniciativas se han llevado a cabo a pequeña escala y se han destinado solo a consumidores limitados.\cite{2554}. 
+\\
+\\
+ De los principales desarrollos relacionados con las tecnologías de redes inteligentes  y TIC se sitúan en Europa, Australia, Canadá , Brasil, Estados Unidos, China, Japón y Corea del Sur. Estas regiones tienen en común una serie de objetivos políticos a nivel nacional, basados en la seguridad del suministro eléctrico y el crecimiento económico mediante tecnologías bajas en carbono, para lo cual las redes inteligentes se sitúan como un desarrollo fundamental. No obstante, cada uno de estos países tiene necesidades diferentes.
+\cite{ColombiaInteligente2016} \cite{UPME2016} \cite{BancoInteramericanodeDesarrollo2016}
+\\
+ De  acuerdo  a  Smart  Grid  Project  Outlook  2014  realizado   por   la   European   Commission   Joint   Research  Centre,  en  Europa  desde  el  año  2002  se  contabilizan  459 proyectos  en  desarrollo  en  los diferentes países de los 27 que conforman la Unión Europea.El objetivo de estos proyectos es exponer la tecnología a entornos de usuario realistas comprobando así su idoneidad para luego ser  representando en  una metodológica $"I+D"$ la cual abarca una terminología que se divide en tres acciones: Investigación básica,Investigación aplicada,Desarrollo experimental \cite{Bucher2018}.
+\\
+\\
+ En Estados Unidos el aumento de la complejidad de las redes eléctricas,demanda y requisito de una mayor confiabilidad de la red, seguridad
+y eficiencia, así como sostenibilidad medioambiental y energética ha impulsado una hoja de ruta encabezada por la $"NIST"$ es el acrónimo de Instituto Nacional de Estándares y
+Tecnología (National Institute of Standards and Technology,
+en inglés), el proyecto de Coordinación Nacional de Redes Inteligentes lidera, coordina y gestiona el esfuerzo de la asociación nacional público-privada de partes interesadas para acelerar el desarrollo de estándares de interoperabilidad para la red inteligente, los avances implementando esta hoja de ruta son los siguientes: Desarrollo de AMI y tecnologías basadas en el consumidor. Integración de sensores y tecnologías de comunicación Control en la red, seguridad cibernética e interoperabilidad entre dispositivos y sistemas.
+\cite{Nist2014} \cite{Leader2010}
+\\
+\\
+ Las redes inteligentes y el proceso de unificación de la energía renovable son componentes clave en el crecimiento exitoso en el Desarrollo Sostenible de América Latina. Los países de América Latina tienen el potencial de instaurar tecnologías avanzadas que pueden contribuir al desarrollo sostenible \cite{CEPAL2004}\cite{UPME2015}\cite{UnidaddePlaneacionMineroEnergetica2015}. El desarrollo de las redes inteligentes en los países de América Latina se enfocan en la disminución de las perdidas no técnicas de energía, la aplicación en el diseño y construcción de medidores inteligentes y la infraestructura de la tecnología de medición.Se suma el entorno favorable de las energías renovables que influye que la generación distribuida sea la principal ruta de acción de las redes inteligentes.\cite{2554}  \cite{Quintana2012}\cite{Mej2018} \cite{2030HojadeRuta}. En Colombia se involucra ampliamente la visión $"Colombia Inteligente"$, como una propuesta que nace de la necesidad de mejora de la red eléctrica.\cite{ColombiaInteligente2016} El propósito primordial, es reconocer que el sector eléctrico debe articularse en principio con otros sectores que brinden soluciones rápidas y eficientes.  \cite{IngaOrtega2012} \cite{colombiainteligente.org} Para asegurar que exista una capacidad optima desde la generación hasta el consumo final asumiendo un mejor desempeño para los usuarios es necesario utilizar nuevas propuestas tecnológicas. Estas iniciativas de nuevos conocimientos tecnológicos facilitan mecanismos de conocimiento, y mejores prácticas para consolidar un plan de acción  considerando actores relevantes que permiten que los proyectos de investigación y desarrollo integren tanto la oferta de mercado, como desarrollos propios para alcanzar los
+objetivos del Sector Energético de Colombia. \cite{2554} 
+En 2016, se concreta el Mapa de Ruta a través de la definición de las Redes Inteligentes Visión 2030 Colombia, documento realizado por la Unidad de Planeación Minero Energética (UPME), que incluye no sólo los retos que debe afrontar el país con el fin de poner en práctica esta visión de redes inteligentes, sino también las tareas y requisitos que deben llevarse a cabo (UPME, 2016). \cite{ColombiaInteligente2016a} \cite{DepartamentoNacionaldePlaneacion2017}\cite{ColombiaInteligente2016}\cite{UPME2016}
+%\section{General Information}
+%\begin{description}
+%	\item[Title:] 
+%	\item[Research Area:] 
+%	\item[Courses associated to current research:] 
+%	\item[Participants:] 
+%	\item[Supervisor]: 
+%	%\item[CoDirector]:  Nombre del co-director (si lo hay)
+%	\item[External Advisers]: 
+%	%\item[Otra informaci\'on general]
+%\end{description}
+\section{DESCRIPCIÓN DEL PROBLEMA}
+%En esta sección se define de forma clara y concreta el problema de investigación.  Se aconseja una extensión máxima de una página. Una estructura opcional es la siguiente:
+%Párrafo I: Básicamente, este es un párrafo de contextualización. En el se da una breve descripción del área de investigación en Colombia o en el mundo. Este parráfo debe responder de forma concreta las siguientes preguntas sobre el área de investigación: Qué es ?, Cómo se hace actualmente ?,  Qué metodología se utiliza actualmente ?  Cuál es el problema ?.
+
+%Parrafo II: Describir brevemente: Qué sabemos (?) y Qué no sabemos (?) sobre el problema.
+
+%Párrafo III:  Descripción el problema de forma que conteste a la pregunta. Cual es el problema ? Por qué lo que se hace actualmente no es adecuado ? Cuales son los retos que se enfrentan ? Qué se necesita para mejorar o aumentar la eficiencia, confiabilidad, ... etc ?  De qué cosas se adolece las metodologías usadas actualmente.
+Escriba aquí
+
+\section{JUSTIFICACIÓN}
+%En esta sección se debe "vender" el proyecto. Se debe dejar claro por qué es importante esta investigación y cuales son las motivaciones para realizarla.  Una estructura opcional es la siguiente:
+%Parrafo I y II: Por qué este problema es importante en Colombia o en el mundo ? Por qué el problema es interesante ?
+%Parrafo III:  Por qué este problema es difícil ?
+%Parrafo IV:  Por qué no ha sido resuelto antes ? y si ha sido resuelto parcialmente, qué hace falta para resolverlo completamente.
+%Parrafo V: Cuales son los componentes fundamentales de lo que yo estoy proponiendo y como son diferentes lo que se ha hecho antes.
+
+% Otra guía
+
+%Explicar aquí las motivaciones, y también que elementos hacen que el proyecto sí sea un tema válido para optar al título de ingeniero en electrónica. En el caso de ser un tema ya desarrollado previamente en otros proyectos, mostrar cuál será el aporte diferenciador que lo valida como original y/o innovador.
+%Definir que tipo de beneficios traería la realización del proyecto (Beneficio Social, Beneficio económico, Beneficio Científico y Tecnológico, Beneficio Personal, otros Beneficios).
+\subsection{Pertinencia}
+
+Debido a la alta demanda  en las ultimas décadas del consumo energético mundial y acompañado del crecimiento económico, promoviendo que en el  sector eléctrico se inicie un crecimiento acelerado del gasto de la energía eléctrica , base esencial para el bienestar socioeconomico en el siglo XXI. En este proceso, la manera de tratar la energía eléctrica, así como verificar su asignación, es primordial dado que causa un gran impacto en las actividades productivas.Adicionalmente al aumento de la demanda, se suman otros factores que ocasiona una motivación para mejorar las infraestructuras eléctricas, como ejemplo el envejecimiento progresivo de los sistemas de medición eléctrica,el diseño y construcción de fuentes de energías renovables y las necesidades constantes de aumentar la seguridad del suministro eléctrico como a su vez la eficiencia del sistema.Como solución a la aparición de estas necesidades expuestas anteriormente nace el concepto de red inteligente.\cite{ColombiaInteligente2016}           
+
+El diseño y construcción  de un circuito de conmutación de fases para el balance de cargas puede cumplir el requerimiento de optimizar la eficiencia  energética de una red eléctrica convencional, por lo cual se hace oportuno generar una solución estructural para actualizar el sistema eléctrico.   
+\subsection{Viabilidad}
+
+%Para llevar a cabo este proyecto y sus posibles practicas en Colombia se debe tener en cuenta las políticas publicas de los sectores de telecomunicaciones y de energia electrica en particula, incentivos de tributario %
+  Para examinar la viabilidad y la  factilibilidad técnica, es necesario evaluar las necesidades estratégicas que tiene Colombia para desarrollar las redes inteligentes, una de estas necesidades es aplicar la infraestructura de medición avanzada (AMI) las cuales son aplicaciones de las redes inteligentes que brindan información sobre el estado de la red, los consumidores y los generadores, para administrar estos procesos de manera eficiente existen dos contextos básicos \cite{ColombiaInteligente2016}
+   \begin{itemize}
+   	\item Gestión activa de cargas:Posibilidad de conectar o desconectar cargas gestionables en los momentos más convenientes según la curva de demanda. Esta funcionalidad puede suponer una contribución importante para el aplanamiento de la curva de demanda y para la integración de la generación distribuida, lo que reducirá la necesidad de instalar nuevos sistemas de generación.  \cite{Taylor2005}
+   	\item  La lectura y operación remota:Se busca operar mediante la monitorización de los flujos de potencia \cite{ColombiaInteligente2016}    
+   \end{itemize}
+     
+  A la infraestructura de medición avanzada y la lectura de operación remota y los estudios socieconomicos fijados en la investigación de la implementación y la ruta de tecnologías de redes inteligentes  desarrollada por "Smart Grids Colombia VISIÓN 2030". \cite{UPME2016},solo establecen rutas y estudios para la aplicación y el contexto de los beneficios que pueden traer al país, dejando un amplio campo de acción para promover soluciones que lleven a cabo la ejecución de redes inteligentes como el de impulsar mecanismos que mejoren la eficiencia energética y el monitoreo de los gastos eléctricos .   
+  
+\subsection{Impacto}
+Para afrontar los nuevos retos de producción, en donde se hace indispensable bajar los costos operativos que genera la maquinaria y la infraestructura eléctrica y electrónica en los conglomerados que producen bienes de valor agregado; es necesario desempeñar una arquitectura de cargas que permita afrontar un correcto desempeño y operación mediante mecanismos que faciliten el diagnostico de las variables que influyen en el consumo de potencia, este proceso para regiones como el departamento del Quindío se realiza sin implementar ningún control estratégico basado en la electrónica que auspicie herramientas de diseño como verificar en tiempo real el comportamiento de las variables que intervienen en el consumo eléctrico y facilitar decisiones mediante un criterio solido aprovechando el potencial que puede brindar componentes que hacen parte de la electrónica de potencia, bases de datos y sistemas basados en microprocesadores.\cite{pag1}\cite{UPMEii2016}\cite{BancoInteramericanodeDesarrollo2016}
+
+\section{OBJETIVOS}
+\subsection{GENERAL}
+%Es sobre estos objetivos que los jurados, evaluarán el proyecto una vez finalizado, por tanto este es un punto clave de claridad en el proyecto. Los objetivos se redactan en forma de promesas impersonales usando infinitivos (Estudiar..., Evaluar...., Diseñar..., Construir...) y deben diferenciarse claramente el objetivo general de  los específicos (Asesorarse bien!). Recuerde que el requisito fundamental para cualquier modalidad de trabajo de grado es cumplir con los objetivos previstos en el proyecto inicial. 	
+%De allí la gran importancia de plantearlos adecuadamente.
+Diseñar los circuitos que componen los sistemas de control y conmutación de fases 
+
+\subsection{ESPECÍFICOS}
+\begin{itemize}
+	\item Implementar sensores para establecer el monitoreo de las variables relacionadas al consumo de potencia eléctrica
+	\item Diseñar los circuitos que componen los sistemas de control y conmutación de fases
+	\item Desarrollar una aplicación para visualizar  las variables.
+\end{itemize}
+
+\section{ALCANCE Y DELIMITACIÓN}
+%Aclarar hasta que punto se espera llegar con el compromiso de este trabajo de grado, a nivel operativo, constructivo, teórico, experimental, etc..
+%Cuando el proyecto hace parte de otro mayor, definir sus límites e interrelación con las demás partes.
+El alcance de este proyecto tendrá como resultado el diseño (prototipo) de un circuito que garantice el balanceo automático de fases para un tablero de distribución de máximo 8 circuitos con cargas monofasicas y cargas bifasicas. Se diseñara una aplicación para  dispositivos  móviles  Android para visualizar en tiempo real el estado del consumo del tablero de distribución. 	    
+
+\section{MARCO TEÓRICO}
+%El marco teórico tiene dos aspectos diferentes. Por una parte, permite ubicar el tema objeto de investigación dentro del conjunto de las teorías existentes con el propósito de precisar en qué corriente de pensamiento se inscribe y en qué medida significa algo nuevo o complementario.
+%Por otro lado, el marco teórico es una descripción detallada de cada uno de los elementos de la teoría que serán directamente utilizados en el desarrollo de la investigación. También incluye las relaciones más significativas que se dan entre esos elementos teóricos.
+%De esta manera, el marco teórico está determinado por las características y necesidades de la investigación. Lo constituye la presentación de postulados según autores e investigadores que hacen referencia al problema investigado y que permite obtener una visión completa de las formulaciones teóricas sobre las cuales ha de fundamentarse el conocimiento científico propuesto en las fases de observación, descripción y explicación.
+%De esta forma el marco teórico es un factor determinante de la investigación pues sus diferentes fases están condicionadas por aquél. Algunas de las funciones del marco teórico son:
+
+% -	Ayuda a prevenir errores que se han cometido en otros estudios.
+% -	Orienta sobre cómo habrá de llevarse a cabo el estudio (al acudir a los antecedentes, se vislumbra cómo ha sido tratado un problema específico de investigación, qué tipos de estudios se han efectuado, con qué tipo de sujetos, cómo se han recolectado los datos, en qué lugares se han llevado a cabo, qué diseños se han utilizado).
+% -	Amplía el horizonte del estudio y guía al investigador para que éste se centre en su problema evitando desviaciones del planteamiento original.
+% -	Conduce al establecimiento de hipótesis o afirmaciones que más tarde habrán de someterse a prueba en la realidad.
+% -	Inspira nuevas líneas y áreas de investigación.
+% -	Proporciona de un marco de referencia para interpretar los resultados del estudio.
+% -	Permite decidir sobre los datos que serán captados y cuáles son las técnicas de recolección más apropiada. Impide que se colecten datos inútiles que hacen más costosa la investigación y dificultan su análisis.
+% -	Proporciona un sistema para clasificar los datos recolectados, ya que estos se agrupan en torno al elemento de la teoría para el cual fueron recogidos.
+% -	Orienta al investigador en la descripción de la realidad observada y su análisis. En la medida en que los contenidos del marco teórico se correspondan con la descripción de la realidad, será más fácil establecer las relaciones entre esos dos elementos, lo cual constituye la base del análisis.
+% -	Impide que al investigador le pasen inadvertidos algunos aspectos sutiles que no pueden ser captados a partir del sentido común o de la experiencia.
+% -	Como se expresa en forma escrita, es un documento que puede ser sometido a la crítica y puede ser complementado y mejorado.
+% -	Hace más homogéneo el lenguaje técnico empleado y unifica los criterios y conceptos básicos de quienes participan en la investigación.
+
+%El marco teórico supone una identificación de fuentes primarias y secundarias sobre las cuales se podrá investigar y diseñar la investigación propuesta. La lectura de textos, libros especializados, revistas, y trabajos anteriores en la modalidad de tesis de grado son fundamentales en su formulación. De igual manera la capacidad de síntesis y compresión de textos por parte del investigador. No existe una norma en cuanto a la extensión del marco teórico a formularse en el proyecto, por lo que es importante que quién lo presente lo haga de tal forma que le permita obtener un conocimiento claro y concreto del mismo, ya que en esto el desarrollo de la investigación se ampliará y se complementará.
+Escriba aquí
+
+\section{METODOLOGÍA}
+%En esta sección se especifica brevemente, el tipo de investigación a realizar.  Se debe definir cuál es la actividad principal a desarrollar en el proyecto, por ejemplo:
+%\begin{itemize}
+%\item Estudio comparativo entre diferentes metodologías o teorías
+%\item Investigación aplicada
+%\item Investigación teórica
+%\item Desarrollo de un prototipo
+%\item Aplicación de una nueva metodología a un problema de ingeniería
+%\item Análisis de un fenómeno
+%\end{itemize}
+%Se recomienda especificar detalles relacionados con los derechos de autor.
+
+% Otra guía
+
+%Es el conjunto de procedimientos, de acciones que se emprenden para dar solución al problema, lo cual, equivale a establecer el cómo se llevará a cabo el proyecto. Responde el cómo será el desarrollo de cada uno de los objetivos específicos.
+%Describa las diferentes técnicas que se utilizarán, diseños estadísticos, simulaciones, ensayos que permitan alcanzar dichos objetivos, anexe un diagrama de ser necesario.
+%El diseño metodológico es la base para planificar todas las actividades que demanda el proyecto y para determinar los recursos humanos y financieros requeridos.
+%Una metodología vaga,  imprecisa no brinda elementos para evaluar la pertinencia de los recursos solicitados 
+%Las actividades deben corresponder a una metodología de trabajo y reflejar la estructura lógica del proceso de innovación, investigación, y desarrollo.
+%Se deben describir en detalle todas las actividades generales y especificas que son necesarias para el desarrollo del trabajo.
+Escriba aquí
+
+\section{PRESUPUESTO Y RECURSOS NECESARIOS}
+% En el caso más común, las entidades podrán ser estudiantes y Uniquindio, pero esto puede variar de acuerdo al proyecto, ya que pueden haber más involucrados.
+
+%\section{Referential Framework}
+%Esta sección tiene a su vez tres o mas sub-secciones. Éstas pueden tener el nombre Antecedentes, Marco conceptual y Marco teórico (aunque se pueden utilizar otros nom- bres según se crea pertinente. Igualmente, puede tener mas o menos sub-secciones según se crea conveniente). En la primera etapa (anteproyecto), esta sección debe tener una extensión máxima de 3 paginas. En la segunda versión (propuesta) se puede extender todo lo que sea necesario para demostrar suficiencia en el conocimiento del estado del arte.
+
+
+\begin{table}[htb]
+	\caption{Tabla de presupuestos y recursos necesarios [Fuente: propia].}
+	\label{tab:Recursos}	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			\textbf{Rubros} & \multicolumn{2}{c|}{\textbf{U. del Quindío}} & \multicolumn{2}{c|}{\textbf{Estudiante}} & \textbf{Total} \\\hline
+			& \textbf{Efectivo} & \textbf{Recurrente} & \textbf{Efectivo} & \textbf{Recurrente} & \\ \hline \hline
+			
+			\rowcolor{Gray}
+			\multicolumn{6}{|l|}{\textbf{Personal}} \\ \hline
+			\multicolumn{1}{|p{4.5cm}|}{Trabajo del director \$[Escriba aquí] la hora, [Escriba aquí] horas semanales por [Escriba aquí] meses} & \$x & \$x & \$x & \$x & \\ \hline \hline
+			
+			\rowcolor{Gray}
+			\multicolumn{6}{|l|}{\textbf{Equipos}} \\ \hline
+			Equipo \#1 & \$x & \$x & \$x & \$x & \\ \hline
+			Equipo \#2 & \$x & \$x & \$x & \$x & \\ \hline \hline
+			
+			\rowcolor{Gray}
+			\multicolumn{6}{|l|}{\textbf{Materiales e insumos}} \\ \hline
+			Item \#1 & \$x & \$x & \$x & \$x & \\ \hline
+			Item \#1 & \$x & \$x & \$x & \$x & \\ \hline \hline
+			
+			\rowcolor{Gray}
+			\textbf{TOTAL} & \$x & \$x & \$x & \$x & \$x \\ \hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+
+%\section{Impacto ambiental, Impacto social,  Ética médica, Riesgos (opcional)}
+%Algunos proyectos podrían tener algún impacto ambiental o social.   En tal caso se debe describir de forma concreta cuales son dichos impactos.
+
+\begin{landscape}
+	\section{CRONOGRAMA}
+	\begin{table}[htb]
+		\caption{Tabla de cronograma separada por semanas [Fuente: propia].}
+		\label{tab:Cronograma}	
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			\rowcolor{Gray}
+			\textbf{Concepto} & \multicolumn{4}{c|}{\textbf{Mes 1}} & \multicolumn{4}{c|}{\textbf{Mes 2}} & \multicolumn{4}{c|}{\textbf{Mes 3}} & \multicolumn{4}{c|}{\textbf{Mes 4}} & \multicolumn{4}{c|}{\textbf{Mes 5}} & \multicolumn{4}{c|}{\textbf{Mes 6}} & \multicolumn{1}{|p{2cm}|}{\textbf{}} \\\hline
+			
+			& 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & \\ \hline
+			
+			\multicolumn{1}{|p{4.5cm}|}{Concepto \#1} & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & x & \\ \hline
+			
+			\multicolumn{1}{|p{4.5cm}|}{Concepto \#1} &  &  & x & x & x & x & x &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \\ \hline
+			
+			\multicolumn{1}{|p{4.5cm}|}{Concepto \#1} &  &  &  &  &  &  &  & x & x & x & x & x & x & x &  &  &  &  &  &  &  &  &  &  & \\ \hline
+			
+			\multicolumn{1}{|p{4.5cm}|}{Concepto \#1} &  &  &  &  &  &  &  &  &  &  &  & x & x & x & x & x & x & x & x &  &  &  &  &  & \\ \hline
+			
+			\multicolumn{1}{|p{4.5cm}|}{Concepto \#1} &  &  &  &  &  &  &  &  &  &  &  &  &  & x & x & x & x & x &  &  &  &  &  &  & \\ \hline
+			
+			\multicolumn{1}{|p{4.5cm}|}{Concepto \#1} &  &  &  &  &  &  &  &  &  &  &  &  & x & x & x & x & x & x &  &  &  &  &  &  & \\ \hline
+			
+			\multicolumn{1}{|p{4.5cm}|}{Concepto \#1} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & x & x & x & x & x & x & \\ \hline				 
+			
+		\end{tabular}
+	\end{table}
+\end{landscape} 
+
+
+\section{Bibliography}
+\bibliographystyle{plain}
+
+\bibliography{Referencias}
+% Inserte referencias 
+
+\end{document}

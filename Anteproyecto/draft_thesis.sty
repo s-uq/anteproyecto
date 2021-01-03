@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Formato recomendado para las tesis de pregrado:
+%  Programa de Ingeniera Electrónica
+%  Universidad del Quindio
+%  Margenes usando las Normas NTC1486
+%  Bibliografia usando el formato IEEE
+%  Por:  Nosotros.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{pdfpages}
+\usepackage{tikz,pgfplots}
+\usepackage[americanvoltage]{circuitikz}
+\usepackage{pgf}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\usepackage[pdftex,
+              bookmarks,
+              bookmarksnumbered=true,
+              bookmarksopen=false,
+              colorlinks,
+              citecolor=black,
+              filecolor=black,
+              linkcolor=black,
+              urlcolor=black,
+              pdfauthor={Universidad del Quind\'io},
+              pdftitle={Propuesta de pregrado},
+              pdftoolbar=true,
+              pdfmenubar=true,
+              pdffitwindow = true
+              ]{hyperref}
+
+%----------------------- Margenes (NTC1486)-----------------
+\usepackage[includeheadfoot,dvipdfm]{geometry}
+\geometry{inner={2cm},outer={2cm},top={3cm},
+          bottom={3cm},bindingoffset={1cm}}
+%----------------------- Permitir las tildes ---------------
+%\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}					
+%\addto\captionsspanish{%
+%  \renewcommand\contentsname{Contents}
+%	\renewcommand\bibname{Bibliography}
+%	\renewcommand\tablename{Tabla}}
+	
+%----------------------- Estilos -------------------------
+
+% Autor
+\newcommand{\setTitulo}{\LARGE\textbf{\expandafter\MakeUppercase\expandafter{\TITULO}}\normalsize}
+
+
+	
+%-----------------------------------------------------------
+
+\renewcommand{\maketitle}{
+
+%------------- Portada ---------------------------
+
+\begin{titlepage}
+\begin{center}
+\normalsize
+\textbf{ANTEPROYECTO - TRABAJO DE GRADO}
+
+\vfill
+
+
+%\AUTOR \\
+\setTitulo
+
+\vspace{1cm}
+%Preliminary project proposal submitted in part fulfilment \\
+%of the requirements to be candidate for the degree of \\
+%{\bfseries Ph. D. in Engineering} \\
+
+\vfill
+
+
+ 
+\begin{figure}[b]
+\centering
+\includegraphics[width = 0.2 \linewidth]{figs/logoUQ}
+\end{figure}
+
+Armenia, Quindío, \FECHA \\
+Facultad de Ingeniería - Programa de Ingeniería Electrónica\\
+UNIVERSIDAD DEL QUIND\'IO\\
+%Engineering Doctorate Program\\
+%Research Group in Automatics
+
+
+\end{center}
+
+\end{titlepage}
+}
+
+\normalsize
+
+\newpage
+
+%------------- Observaciones ---------------------------
+\newcommand{\makeobstable}{
+\normalsize
+\begin{center}
+	\begin{table}
+	\caption{TABLA DE CORRECCIÓN DE LAS OBSERVACIONES DE LA PROPUESTA}
+	
+		\begin{tabular}{|c|c|c|c|}
+			\hline 
+			\textbf{Número} & \textbf{Observación} & \textbf{Página} & \textbf{Detalle} \\ 
+			\hline 
+			1 &   &   &   \\ 
+			\hline 
+			2 &   &   &   \\ 
+			\hline 
+			3 &   &   &   \\ 
+			\hline 
+			4 &   &   &   \\ 
+			\hline 
+		\end{tabular} 
+	\end{table}
+\end{center}
+\newpage
+}
+
+
+%------------- Tabla de contenido ---------------------------
+\renewcommand{\contentsname}{Contenido}
+
+
+%------------- PDA Proponentes, Director y  Asesores-------------
+\newcommand{\makePDA}{
+Datos
+\newpage
+}
+
+%------------- Acta PI---------------------------
+\newcommand{\makeActaPI}{
+
+\begin{center}
+	\large
+	\textbf{Proyecto:}  \TITULO
+\end{center}
+
+Todos los partícipes conocen y aceptan el estatuto de propiedad intelectual de la Universidad del Quindío, el de las empresas participantes y también el reglamento de elaboración de trabajos de grado de la Facultad de Ingeniería.
+
+FIRMA DE LAS PARTES IMPLICADAS.
+% Agregar firmas
+}
+
+
+
+\newcommand{\actividad}[4]{
+  \node at (-5,-15*#1) [text width=80, draw, rounded corners, anchor=east] (N) {#2}; 
+  \draw[gray] (-5,-15*#1) -- +(115,0);
+  \foreach \x in  {1,2, ..., 16} \draw[gray] (7*\x-3,-15*#1) -- +(0,-15);
+  \fill[rounded corners] (3.5*#3-6,-15*#1+1) rectangle +(3.5*#4-3.5*#3+7,-2);
+}
+
+
+
+
+\newenvironment{cronograma}
+{\begin{figure}[h!]\centering\footnotesize\begin{tikzpicture}[x=1mm,y=1mm]
+\node at (0,0) [draw, minimum height=5mm, minimum width=115mm, 
+                anchor=west, fill=gray!10] (B) {Month} ;
+\foreach \x in  {1,2, ..., 16}
+{
+  \draw[gray] (3.5*2*\x-3,-8) -- +(0,-7);
+  \node at (3.5*2*\x-3,-6) [draw, minimum width=6mm, fill=gray!10] {\x} ;
+};
+
+}
+{\end{tikzpicture}\caption{Activities schedule.}\label{fig:cronograma}\end{figure}}
+
+

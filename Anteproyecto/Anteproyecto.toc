@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}PROPONENTE(S), DIRECTOR Y ASESOR(ES)}{3}{section.1}%
+\contentsline {section}{\numberline {2}ORGANIZACIÓN USUARIA}{4}{section.2}%
+\contentsline {section}{\numberline {3}GLOSARIO}{4}{section.3}%
+\contentsline {section}{\numberline {4}ÁREA}{4}{section.4}%
+\contentsline {section}{\numberline {5}MODALIDAD}{4}{section.5}%
+\contentsline {section}{\numberline {6}TITULO}{4}{section.6}%
+\contentsline {section}{\numberline {7}TEMA}{4}{section.7}%
+\contentsline {section}{\numberline {8}ANTECEDENTES}{5}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Palabras Claves}{5}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Herramientas de Búsqueda}{5}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Estado del Arte}{5}{subsection.8.3}%
+\contentsline {section}{\numberline {9}DESCRIPCIÓN DEL PROBLEMA}{7}{section.9}%
+\contentsline {section}{\numberline {10}JUSTIFICACIÓN}{7}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Pertinencia}{7}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Viabilidad}{8}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Impacto}{8}{subsection.10.3}%
+\contentsline {section}{\numberline {11}OBJETIVOS}{9}{section.11}%
+\contentsline {subsection}{\numberline {11.1}GENERAL}{9}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}ESPECÍFICOS}{9}{subsection.11.2}%
+\contentsline {section}{\numberline {12}ALCANCE Y DELIMITACIÓN}{9}{section.12}%
+\contentsline {section}{\numberline {13}MARCO TEÓRICO}{9}{section.13}%
+\contentsline {section}{\numberline {14}METODOLOGÍA}{9}{section.14}%
+\contentsline {section}{\numberline {15}PRESUPUESTO Y RECURSOS NECESARIOS}{9}{section.15}%
+\contentsline {section}{\numberline {16}CRONOGRAMA}{11}{section.16}%
+\contentsline {section}{\numberline {17}Bibliography}{12}{section.17}%

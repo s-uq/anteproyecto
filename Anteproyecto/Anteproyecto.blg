@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Anteproyecto.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Database file #1: Referencias.bib
+Repeated entry---line 40 of file Referencias.bib
+ : @article{UPME2016
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in 2030HojadeRuta
+Warning--to sort, need author or key in pag1
+Warning--empty author in 2030HojadeRuta
+Warning--empty journal in 2030HojadeRuta
+Warning--empty journal in BancoInteramericanodeDesarrollo2016
+Warning--empty journal in ColombiaInteligente2016a
+Warning--empty year in 2554
+Warning--there's a number but no volume in IngaOrtega2012
+Warning--empty journal in Leader2010
+Warning--there's a number but no volume in Leader2010
+Warning--empty journal in Mej2018
+Warning--empty journal in Quintana2012
+Warning--empty publisher in UnidaddePlaneacionMineroEnergetica2015
+You've used 21 entries,
+            2118 wiz_defined-function locations,
+            619 strings with 7955 characters,
+and the built_in function-call counts, 5686 in all, are:
+= -- 562
+> -- 200
+< -- 6
++ -- 83
+- -- 62
+* -- 338
+:= -- 953
+add.period$ -- 60
+call.type$ -- 21
+change.case$ -- 93
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 260
+empty$ -- 469
+format.name$ -- 62
+if$ -- 1191
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 21
+newline$ -- 105
+num.names$ -- 38
+pop$ -- 108
+preamble$ -- 1
+purify$ -- 73
+quote$ -- 0
+skip$ -- 184
+stack$ -- 0
+substring$ -- 292
+swap$ -- 51
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 82
+warning$ -- 13
+while$ -- 62
+width$ -- 23
+write$ -- 212
+(There was 1 error message)
